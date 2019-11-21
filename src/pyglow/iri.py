@@ -33,6 +33,7 @@ class IRI(object):
         # Ionospheric parameters:
         self.NmF2 = nan
         self.hmF2 = nan
+        self.exb = nan
 
     @staticmethod
     def init_iri16():
@@ -231,5 +232,6 @@ class IRI(object):
         # Ionospheric parameters:
         self.NmF2 = oarr[0] / 100.**3  # [items/cm^3]
         self.hmF2 = oarr[1]
+        self.exb = oarr[43]
 
         return self
