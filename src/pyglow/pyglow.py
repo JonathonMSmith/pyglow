@@ -75,6 +75,7 @@ class Point(object):
         self.Tn_iri = self.iri.Tn
         self.NmF2 = self.iri.NmF2
         self.hmF2 = self.iri.hmF2
+        self.exb = self.iri.exb
 
         # Flag for user indices:
         self.user_ind = user_ind
@@ -209,6 +210,7 @@ class Point(object):
         self.Tn_iri = self.iri.Tn
         self.NmF2 = self.iri.NmF2
         self.hmF2 = self.iri.hmF2
+        self.exb = self.iri.exb
 
         return self
 
